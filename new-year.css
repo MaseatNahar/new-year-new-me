@@ -44,3 +44,55 @@
 
     
   }
+  /* work on second part*/
+
+section{
+  display: flex;
+}
+
+.img-failure{
+  width: 569px;
+  height: 723.3px;
+  margin-left:120px;
+  margin-top: 90px;
+
+
+}
+.failure{
+  margin-top: 350px;
+  padding-right: 80px;
+}
+.failure-title{
+  width: 288px;
+  height: 94px;
+  line-height: 46px;
+  font-size: 40px;
+  color-scheme:#151414;
+  margin-left: 100px;
+  margin-top: 12px;
+}
+.F-discription{
+  width: 416px;
+  height: 104px; 
+  color: #444343;
+  margin-left: 100px;
+  margin-bottom:5px ;
+  line-height: 25px;
+  
+  
+}
+.list{
+  color: #444343;
+  margin-left: 100px;
+  list-style: none;
+  margin-top: 5px;
+  
+}
+.line{
+  margin-bottom: 10px;
+  
+}
+.icon{
+  margin-right: 10px;
+  color: aquamarine;
+}
