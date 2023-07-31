@@ -94,5 +94,107 @@ section{
 }
 .icon{
   margin-right: 10px;
-  color: aquamarine;
+  color: rgb(10, 198, 136);
+}
+/* work on my plan */
+.plan{
+display: flex;
+flex-direction: column;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.head{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 70px;
+  font-size: 30px;
+
+}
+.p-discription{
+  color: #737272;
+  
+}
+/* Forth part work on gradient image */
+.watch{
+  background-image: url(images/watch.png);
+  width: 1121px;
+  height:300px ;
+  margin-top: 100px;
+  background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(images/watch.png); 
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+  margin: 50px;
+  
+}
+.mindset{
+     padding: 60px;
+}
+.heading{
+  height: 64px;
+  width: 300px;
+  font-size: 18px;
+  color: #FFFFFF;
+
+}
+.button{
+  height: 67px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  color: #005FAC;
+}
+/* work on last part */
+.footer{
+background-color: #151414;
+
+}
+.footer_discrioction{
+  color:#FFFFFF;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  display: flex;
+ justify-content: left;
+}
+.f_contact{
+flex-direction: column;
+justify-content: space-evenly;
+}
+.f_contact > div:first-child {
+  margin-bottom: 20px; /* You can adjust this value as needed */
+}
+
+/* OR alternatively, you can add margin-top to the second <div> */
+.f_contact > div:last-child {
+  margin-top: 20px; /* You can adjust this value as needed */
+}
+.subscription{
+  color: #FFFFFF;
+  margin-left: 300px;
+}
+.button_email{
+  height: 40px;
+  width: 200px;
+  text-align: left;
+  background-color: #151414;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border-color: white;
+  margin-bottom: 20px;
+  
+}
+.button_sub{
+  height: 40px;
+  width: 100px;
+  color: #FFFFFF;
+  background-color: #137fd7;
+  border-radius: 5px;
+  border-color: none;
+
 }
